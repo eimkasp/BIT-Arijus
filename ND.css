@@ -55,6 +55,10 @@ section{
     padding: 5px;
     margin: 20px;
 }
+img {
+    width: 30%;
+    height: auto;
+  }
 span {
     font-weight: 700;
   }
