@@ -58,6 +58,7 @@ section{
 img {
     width: 30%;
     height: auto;
+    border-radius: 50%;
   }
 span {
     font-weight: 700;
