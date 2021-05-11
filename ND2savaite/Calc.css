@@ -1,0 +1,16 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+}
+table{
+    border-collapse: collapse;
+}
+th, td.square{
+    background-color: rgb(247, 247, 158);
+    font-weight: 700;
+}
+td{
+    border: 1px solid #999;
+    padding: 3px;
+    text-align: center;
+}
