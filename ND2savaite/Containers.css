@@ -1,0 +1,23 @@
+.body_container{
+    background-color: gray;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main_container{
+    max-width: 960px;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+.forms_items{
+    display: flex;
+}
+.info_container{
+    /* float: left; */
+    border: 1px solid;
+    padding: 20px;
+    width: 25%;
+    box-sizing: border-box;
+    margin: 20px;
+    margin-left: 5%;
+}
