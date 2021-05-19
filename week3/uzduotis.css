@@ -1,0 +1,38 @@
+body{
+    font-family: nunito,Helvetica,Arial,sans-serif;
+    background-color: lightgray;
+}
+.main_container{
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0  0 100px 0;
+}
+.flex_container{
+max-width: 1280px;
+display: flex;
+flex-wrap: wrap;
+}
+.item{
+    margin: 10px;
+    flex-basis: content;
+}
+.card{
+    margin: 20px auto;
+    width: 100%;
+    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 10%);
+    background-color: white;
+}
+.title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.description{
+    font-weight: 500;
+}
+.send{
+    background-color: coral;
+    border-width: 0px;
+    color: white;
+    font-size: 24px;
+    padding: 10px 30px;
+}
