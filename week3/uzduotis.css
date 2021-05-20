@@ -17,17 +17,21 @@ flex-wrap: wrap;
     flex-basis: content;
 }
 .card{
-    margin: 20px auto;
+    position: relative;
+    margin: 2px auto;
     width: 100%;
     box-shadow: 0 1px 10px 0 rgb(0 0 0 / 10%);
     background-color: white;
+    border-radius: 5px;
 }
 .title{
     font-weight: 700;
     font-size: 20px;
+    padding-left: 10px;
 }
 .description{
     font-weight: 500;
+    padding-left: 10px;
 }
 .send{
     background-color: coral;
@@ -35,4 +39,17 @@ flex-wrap: wrap;
     color: white;
     font-size: 24px;
     padding: 10px 30px;
+    border-radius: 5px;
+    margin: 10px;
+}
+img{
+    border-radius: 5px;
+}
+h1, h3{
+    margin-left: 10px;
+}
+.download{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
 }

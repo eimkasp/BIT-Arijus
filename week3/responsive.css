@@ -1,0 +1,21 @@
+@media (max-width: 575.98px) { 
+    /* Cia rasau tokius pat css selektorius kaip ir iprastai */
+    body {
+        background: green;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 991.98px) { 
+    /* Cia rasau tokius pat css selektorius kaip ir iprastai */
+    body {
+        background: yellow;
+    }
+
+}
+@media  (min-width: 992px){ 
+    /* Cia rasau tokius pat css selektorius kaip ir iprastai */
+    body {
+        background: red;
+    }
+
+}
