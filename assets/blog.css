@@ -1,3 +1,6 @@
+body{
+  background-color: azure;
+}
 .blog {
   background: url(https://preview.colorlib.com/theme/personal/img/blog/xblog-home-banner.jpg.pagespeed.ic.aiMsZVJs5x.jpg)
     bottom;
@@ -98,9 +101,6 @@
 .story_image:hover .image_overlay{
   background: rgba(132,144,255,.85);
   }
-/* .image_overlay:hover{
-background: rgba(132,144,255,.85);
-} */
 
 .image_overlay_box{
   padding: 30px;
@@ -123,3 +123,145 @@ align-items: center;
   font-size: 14px;
   font-weight: 400;
 }
+
+.posts{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.posts_container{
+display: flex;
+padding-bottom: 100px;
+}
+
+.posts_left{
+  width: 66%;
+  padding: 0 30px;
+}
+
+.left_box{
+display: flex;
+padding-bottom: 50px;
+}
+
+.left_box_info{
+  width: 25%;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.info_box_details a{
+  color: grey;
+  font-size: 16px;
+  text-decoration: none;
+  }
+
+  .info_box_details a:hover{
+    color: dodgerblue;
+    }
+
+.info_box_details i{
+color: black;
+font-size: 24px;
+}
+
+.left_box_article{
+  width: 75%;
+}
+
+.info_box_links li{
+padding:0 ;
+}
+.info_box_links li:hover a{
+  color: dodgerblue;
+  }
+
+.article_image img{
+  width: 100%;
+}
+
+.left_box_article a{
+  text-decoration: none;
+}
+
+.left_box_article h1{
+  color: black;
+  font-size: 24px;
+}
+
+.left_box_article p{
+  color: grey;
+  font-size: 18px;
+}
+
+.article_button {
+  padding: 15px 30px;
+  background-color: white;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  border: 1px solid white;
+}
+
+.article_button:hover {
+  padding: 15px 30px;
+  background-color: dodgerblue;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+.posts_right{
+  width: 33%;
+  padding: 50px 15px;
+  border: solid 2px grey;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.search_box{
+margin: 0 auto;
+  width: 80%;
+  background-color: dodgerblue;
+  border-radius: 50px;
+  padding: 15px 0;
+}
+
+input, button{
+  background: dodgerblue;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+::placeholder{
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+form i{
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.right_box h6 {
+  color: grey;
+}
+.right_box a{
+ text-decoration: none;
+}
+
+.right_box a h3{
+  color: black;
+ }
+
+ .right_box p{
+  color: grey;
+ }
+
+ .right_box_social i{
+font-size: 20px;
+font-weight: 600;
+ }
+
